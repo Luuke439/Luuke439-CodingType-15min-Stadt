@@ -1,0 +1,53 @@
+body {
+  font-family: "VT323", monospace;
+  font-size: 33px;
+  font-style: #dbf4ad;
+  text-align: center;
+  background-color: #074a2a;
+}
+h2 {
+  color: #d7f0aa;
+}
+
+#pieces {
+  width: 415px;
+  height: 332px;
+  border: 2px solid #004427;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pieces img {
+  width: 79.001px;
+  height: 79.001px;
+  border: 2px solid #004427;
+}
+
+button {
+  transition: transform 0.7s ease-in-out;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+button:hover {
+  transform: rotate(10deg);
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+input {
+  transition: transform 0.7s ease-in-out;
+  max-width: 70px;
+  padding-left: 0;
+  padding-top: 0;
+}
+input:hover {
+  transform: rotate(10deg);
+}

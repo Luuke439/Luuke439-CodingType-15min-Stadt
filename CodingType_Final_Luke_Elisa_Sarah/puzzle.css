@@ -1,0 +1,14 @@
+body {
+  background-image: url("/images/start.jpg");
+  background-size: 1500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+input {
+  max-width: 130px;
+  padding-left: 1000px;
+  padding-top: 4900px;
+}
